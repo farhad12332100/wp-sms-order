@@ -32,7 +32,7 @@ if ( ! class_exists( 'VI_WooCommerce_Photo_Reviews' ) ) {
 		}
 		public function check_environment() {
 			if ( ! class_exists( 'VillaTheme_Require_Environment' ) ) {
-				include_once WP_PLUGIN_DIR . DIRECTORY_SEPARATOR . "woocommerce-photo-reviews" . DIRECTORY_SEPARATOR . "includes" . DIRECTORY_SEPARATOR . 'support.php';
+				include_once plugin_dir_path( __FILE__ ) . 'includes' . DIRECTORY_SEPARATOR . 'support.php';
 			}
 			$environment = new VillaTheme_Require_Environment( [
 					'plugin_name'     => 'WooCommerce Photo Reviews',
@@ -51,7 +51,7 @@ if ( ! class_exists( 'VI_WooCommerce_Photo_Reviews' ) ) {
 			if ( $environment->has_error() ) {
 				return;
 			}
-			require_once WP_PLUGIN_DIR . DIRECTORY_SEPARATOR . "woocommerce-photo-reviews" . DIRECTORY_SEPARATOR . "includes" . DIRECTORY_SEPARATOR . "includes.php";
+			require_once plugin_dir_path( __FILE__ ) . 'includes' . DIRECTORY_SEPARATOR . 'includes.php';
 			add_action( 'init', array( $this, 'load_plugin_textdomain' ) );
 		}
 		public function before_woocommerce_init() {
@@ -63,8 +63,8 @@ if ( ! class_exists( 'VI_WooCommerce_Photo_Reviews' ) ) {
 		public function load_plugin_textdomain() {
 			$locale = is_admin() && function_exists( 'get_user_locale' ) ? get_user_locale() : get_locale();
 			$locale = apply_filters( 'plugin_locale', $locale, 'woocommerce-photo-reviews' );
-			load_textdomain( 'woocommerce-photo-reviews', WP_PLUGIN_DIR . "/woocommerce-photo-reviews/languages/woocommerce-photo-reviews-$locale.mo" );
-			load_plugin_textdomain( 'woocommerce-photo-reviews', false, basename( dirname( __FILE__ ) ) . "/languages" );
+			load_textdomain( 'woocommerce-photo-reviews', plugin_dir_path( __FILE__ ) . 'languages/woocommerce-photo-reviews-' . $locale . '.mo' );
+			load_plugin_textdomain( 'woocommerce-photo-reviews', false, basename( dirname( __FILE__ ) ) . '/languages' );
 			if ( class_exists( 'VillaTheme_Support_Pro' ) ) {
 				new VillaTheme_Support_Pro(
 					array(
