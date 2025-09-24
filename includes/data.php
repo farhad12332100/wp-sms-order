@@ -40,6 +40,7 @@ class VI_WOOCOMMERCE_PHOTO_REVIEWS_DATA {
                     'min_rating' => 0,
                     'owner' => 0,
                     'register' => 0,
+                    'cart_only' => 0,
                 )
             ),
             'product_include' => array($coupon_id => array()),
@@ -53,6 +54,12 @@ class VI_WOOCOMMERCE_PHOTO_REVIEWS_DATA {
                     'subject' => 'Discount Coupon For Your Review',
                     'heading' => 'Thank You For Your Review!',
                     'content' => "Dear {customer_name},\nThank you so much for leaving review on my website!\nWe'd like to offer you this discount coupon as our thankfulness to you.\nCoupon code: {coupon_code}.\nDate expires: {date_expires}.\nYours sincerely!"
+                )
+            ),
+            'sms' => array(
+                $coupon_id => array(
+                    'enable' => 0,
+                    'content' => "Dear {customer_name},\nCoupon code: {coupon_code}.\nDate expires: {date_expires}.\nValid until: {last_valid_date}."
                 )
             ),
             'coupon_select' => array('kt_generate_coupon'),
