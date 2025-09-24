@@ -1,0 +1,281 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Photo Reviews Premium\n"
+"PO-Revision-Date: 2025-09-23 00:00+0000\n"
+"Last-Translator: Capy AI <support@capy.ai>\n"
+"Language-Team: Persian (Iran) <fa_IR@li.org>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Capy.ai\n"
+"X-Domain: woocommerce-photo-reviews\n"
+
+#: templates/viwcpr-overall-rating-html.php:25
+msgid "Customer reviews"
+msgstr "دیدگاه‌های مشتریان"
+
+#. translators: %s: review count
+#: templates/viwcpr-overall-rating-html.php:45
+msgid "Based on %s reviews"
+msgstr "بر اساس %s دیدگاه"
+
+#. translators: %s: review count
+#: templates/viwcpr-overall-rating-html.php:49
+msgid "Based on %s review"
+msgstr "بر اساس %s دیدگاه"
+
+#: templates/viwcpr-pagination-loadmore-html.php:9
+#: templates/viwcpr-pagination-loadmore-html.php:19
+msgid "Load more"
+msgstr "نمایش بیشتر"
+
+#: templates/viwcpr-review-form-html.php:25
+msgid "Write Your Review"
+msgstr "دیدگاه خود را بنویسید"
+
+#: templates/viwcpr-review-form-html.php:27
+msgid "Add your review"
+msgstr "دیدگاه خود را بنویسید"
+
+#. translators: %s is product title
+#: templates/viwcpr-review-form-html.php:65
+msgid "Leave a Reply to %s"
+msgstr "پاسخی برای %s بنویسید"
+
+#. translators: %s is product title
+#: templates/viwcpr-review-form-html.php:218
+msgid "Leave your Reply to %s"
+msgstr "پاسخ خود را برای %s بنویسید"
+
+#: templates/viwcpr-review-form-html.php:70
+#: templates/viwcpr-review-form-html.php:83
+#: templates/viwcpr-review-form-html.php:223
+#: templates/viwcpr-review-form-html.php:237
+msgid "Name"
+msgstr "نام"
+
+#: templates/viwcpr-review-form-html.php:72
+#: templates/viwcpr-review-form-html.php:85
+#: templates/viwcpr-review-form-html.php:225
+#: templates/viwcpr-review-form-html.php:239 frontend/orders.php:109
+msgid "Email"
+msgstr "ایمیل"
+
+#: templates/viwcpr-review-form-html.php:75
+#: templates/viwcpr-review-form-html.php:228 frontend/orders.php:109
+msgid "Submit"
+msgstr "ارسال"
+
+#: templates/viwcpr-review-form-html.php:92
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr "برای ارسال دیدگاه باید %1$sوارد شوید%2$s."
+
+#: templates/viwcpr-review-form-html.php:95
+msgid "Your rating"
+msgstr "امتیاز شما"
+
+#: templates/viwcpr-review-form-html.php:96
+msgid "Rate&hellip;"
+msgstr "امتیاز دهید…"
+
+#: templates/viwcpr-review-form-html.php:97
+msgid "Perfect"
+msgstr "عالی"
+
+#: templates/viwcpr-review-form-html.php:98
+msgid "Good"
+msgstr "خوب"
+
+#: templates/viwcpr-review-form-html.php:99
+msgid "Average"
+msgstr "معمولی"
+
+#: templates/viwcpr-review-form-html.php:100
+msgid "Not that bad"
+msgstr "بد نبود"
+
+#: templates/viwcpr-review-form-html.php:101
+msgid "Very poor"
+msgstr "ضعیف"
+
+#: templates/viwcpr-review-form-html.php:104
+msgid "Your review"
+msgstr "دیدگاه شما"
+
+#: templates/viwcpr-review-form-html.php:112
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr "تنها مشتریانی که این محصول را خریده‌اند می‌توانند دیدگاه ثبت کنند."
+
+#: frontend/orders.php:60
+msgid "Reviews"
+msgstr "دیدگاه‌ها"
+
+#: frontend/orders.php:98
+msgid "Review for order: #%s"
+msgstr "دیدگاه برای سفارش: #%s"
+
+#: frontend/orders.php:151 frontend/orders.php:210
+msgid "Rate"
+msgstr "امتیاز دهید"
+
+#: frontend/orders.php:202
+msgid "Rate %s"
+msgstr "به %s امتیاز دهید"
+
+#: frontend/reviews_form.php:33
+msgid "Please select a rating"
+msgstr "لطفاً یک امتیاز انتخاب کنید"
+
+#: frontend/reviews_form.php:34
+msgid "Please enter your comment"
+msgstr "لطفاً نظر خود را وارد کنید"
+
+#: frontend/reviews_form.php:35
+msgid "Please enter your name"
+msgstr "لطفاً نام خود را وارد کنید"
+
+#: frontend/reviews_form.php:36
+msgid "Please enter your email"
+msgstr "لطفاً ایمیل خود را وارد کنید"
+
+#: frontend/reviews_form.php:37
+msgid "Caption for this image"
+msgstr "عنوان این تصویر"
+
+#: frontend/reviews_form.php:41
+msgid "Please upload at least one image for your review!"
+msgstr "لطفاً برای دیدگاه خود دست‌کم یک تصویر بارگذاری کنید!"
+
+#: frontend/reviews_form.php:42
+msgid "Please agree with our term and policy."
+msgstr "لطفاً با شرایط و قوانین ما موافقت کنید."
+
+#: frontend/frontend.php:108
+msgid "One minute"
+msgstr "یک دقیقه"
+
+#: frontend/frontend.php:868 frontend/frontend.php:869
+msgid "never expires"
+msgstr "بدون تاریخ انقضا"
+
+#: frontend/frontend.php:914
+msgid "Thank You For Your Review!"
+msgstr "از ثبت دیدگاه شما سپاسگزاریم!"
+
+#: templates/review-meta.php:26 frontend/frontend.php:1505
+msgid "Your review is awaiting approval"
+msgstr "دیدگاه شما در انتظار تأیید است"
+
+#: frontend/frontend.php:1579
+msgid "Sorry, comments are closed for this item."
+msgstr "متأسفیم، ارسال دیدگاه برای این مورد بسته است."
+
+#: frontend/frontend.php:1583
+msgid "Sorry, comments are allowed for this item."
+msgstr "متأسفیم، ارسال دیدگاه برای این مورد مجاز است."
+
+#: frontend/frontend.php:1602
+msgid "Sorry, you must be logged in to comment."
+msgstr "متأسفیم، برای ارسال دیدگاه باید وارد شوید."
+
+#: frontend/frontend.php:1606
+msgid "Please fill the required fields."
+msgstr "لطفاً فیلدهای الزامی را تکمیل کنید."
+
+#: frontend/frontend.php:1608
+msgid "Please enter a valid email address."
+msgstr "لطفاً یک نشانی ایمیل معتبر وارد کنید."
+
+#: frontend/frontend.php:1612
+msgid " Please type your comment text."
+msgstr " لطفاً متن دیدگاه خود را بنویسید."
+
+#: templates/grid/viwcpr-template-grid-html.php:50
+#: templates/grid/viwcpr-template-grid-layout-2-html.php:50
+#: templates/list/viwcpr-template-list-html.php:49
+#: templates/list/viwcpr-template-list-layout-2-html.php:49
+#: templates/masonry/viwcpr-template-masonry-html.php:50
+msgid "Click to view full screen"
+msgstr "برای نمایش تمام‌صفحه کلیک کنید"
+
+#: admin/admin.php:4685 admin/admin.php:5388
+msgid "Add Image"
+msgstr "افزودن تصویر"
+
+#: frontend/frontend.php:1766 frontend/frontend.php:1796
+msgid "Error adding file: %s."
+msgstr "خطا در افزودن فایل: %s."
+
+#: frontend/single-page.php:835
+msgid "'%s' is not an allowed file type."
+msgstr "نوع فایل '%s' مجاز نیست."
+
+#: frontend/frontend.php:1721
+msgid "File's too large!"
+msgstr "حجم فایل بیش از حد مجاز است!"
+
+#: templates/grid/viwcpr-template-grid-html.php:172
+#: templates/grid/viwcpr-template-grid-html.php:538
+#: templates/grid/viwcpr-template-grid-layout-2-html.php:216
+#: templates/grid/viwcpr-template-grid-layout-2-html.php:307
+#: templates/list/viwcpr-template-list-html.php:475
+#: templates/list/viwcpr-template-list-html.php:530
+#: templates/list/viwcpr-template-list-layout-2-html.php:320
+#: templates/list/viwcpr-template-list-layout-2-html.php:375
+#: templates/masonry/viwcpr-template-masonry-html.php:380
+#: templates/masonry/viwcpr-template-masonry-html.php:428
+msgid "...More"
+msgstr "…بیشتر"
+
+#. %s: star(s)
+#: templates/viwcpr-filters-html.php:95 templates/viwcpr-filters-html.php:139
+msgid "%s star"
+msgid_plural "%s stars"
+msgstr[0] "%s ستاره"
+
+#: templates/viwcpr-filters-html.php:99 templates/viwcpr-filters-html.php:114
+msgid "All stars"
+msgstr "همهٔ ستاره‌ها"
+
+#: plugins/elementor/reviews-widget.php:377
+msgid "All Stars "
+msgstr "همهٔ ستاره‌ها "
+
+#: admin/admin.php:2141 admin/admin.php:5676
+msgid "All ratings"
+msgstr "همهٔ امتیازها"
+
+#: admin/admin.php:2142
+msgid "1 Star"
+msgstr "۱ ستاره"
+
+#: admin/admin.php:2143
+msgid "2 Star"
+msgstr "۲ ستاره"
+
+#: admin/admin.php:2144
+msgid "3 Star"
+msgstr "۳ ستاره"
+
+#: admin/admin.php:2145
+msgid "4 Star"
+msgstr "۴ ستاره"
+
+#: admin/admin.php:2146
+msgid "5 Star"
+msgstr "۵ ستاره"
+
+#: frontend/share_reviews.php:92
+msgid "Add a review"
+msgstr "ثبت دیدگاه"
+
+#: templates/list/viwcpr-list-layout-overall-rating-html.php:23
+msgid "Average Rating"
+msgstr "میانگین امتیاز"
+
+#: templates/list/viwcpr-list-layout-overall-rating-html.php:32
+msgid "Average rating on this product"
+msgstr "میانگین امتیاز این محصول"
